@@ -1,0 +1,14 @@
+<!--
+index:int,
+money:string,
+detail:string,
+time:string
+  -->
+
+<template name="tall-cell">
+  <view class="tall-cell">
+    <text class="detail-text">{{detail}}</text>
+    <text class='money-text'>{{money}}</text>
+    <text class="time-text">{{time}} </text>
+  </view>
+</template>
